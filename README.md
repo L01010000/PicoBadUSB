@@ -1,1 +1,2 @@
-# PicoBadUSB
+# BadUSB scripts for RPi Pico
+
